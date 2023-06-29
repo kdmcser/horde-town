@@ -1,0 +1,79 @@
+{
+	"name" : "Horde",
+	"description" : "Horde Town",
+	"author" : "VCMI ROFL",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.20",
+	"modType" : "Town",
+	"changelog" :
+    {
+        "1.20"   : [ "Update to vcmi-1.2 format" ],
+        "1.11"   : [ "Special buildings support" ],
+		"1.10"   : [ "Added creatures' abilities", "Bugfixes", "Graphics tweakings" ],
+		"1.00"   : [ "Initial release" ]
+    },
+
+	"factions" :
+	[
+		"config/horde/town/buildings",
+		"config/horde/town/faction",
+		"config/horde/town/siege",
+		"config/horde/town/spells",
+		"config/horde/town/structures",
+		"config/horde/town/puzzle"
+
+	],
+	"creatures" :
+	[
+		"config/horde/creatures/peon",
+		"config/horde/creatures/foreman",
+		"config/horde/creatures/troll1",
+		"config/horde/creatures/troll2",
+        "config/horde/creatures/worg1",
+		"config/horde/creatures/worg2",
+		"config/horde/creatures/worg3",
+		"config/horde/creatures/ogre1",
+		"config/horde/creatures/ogre2",
+		"config/horde/creatures/ogre3",
+		"config/horde/creatures/drake1",
+		"config/horde/creatures/drake2",
+		"config/horde/creatures/lock1",
+		"config/horde/creatures/lock2",
+		"config/horde/creatures/gronn1",
+		"config/horde/creatures/gronn2",
+		"config/horde/creatures/kobold"
+
+	],
+	"heroClasses" :
+	[
+		"config/horde/heroes/warchief",
+		"config/horde/heroes/clairvoyant"
+
+	],
+
+	"heroes" :
+	[
+		"config/horde/heroes/boang",
+		"config/horde/heroes/draas",
+		"config/horde/heroes/forang",
+		"config/horde/heroes/fullika",
+		"config/horde/heroes/gadira",
+		"config/horde/heroes/goranud",
+		"config/horde/heroes/hurgor",
+		"config/horde/heroes/jargura",
+		"config/horde/heroes/kutala",
+		"config/horde/heroes/makgum",
+		"config/horde/heroes/ollathus",
+		"config/horde/heroes/orloch",
+		"config/horde/heroes/roeda",
+		"config/horde/heroes/soragg",
+		"config/horde/heroes/thurnokk",
+		"config/horde/heroes/yreima"
+	],
+	"objects" : [ "config/horde/dwellings" ],
+	"settings" : {
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ]
+		}
+	}
+}
