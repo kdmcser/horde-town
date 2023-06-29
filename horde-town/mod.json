@@ -12,7 +12,10 @@
 		"1.10"   : [ "Added creatures' abilities", "Bugfixes", "Graphics tweakings" ],
 		"1.00"   : [ "Initial release" ]
     },
-
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
 	"factions" :
 	[
 		"config/horde/town/buildings",
