@@ -60,9 +60,10 @@
 		"specialty": {
 			"bonuses": {
 				"earthDamage": {
-					"type" : "EARTH_SPELL_DMG_PREMY",
-					"valueType" : "BASE_NUMBER",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.earth",
 					"val" : 20,
+					"valueType" : "BASE_NUMBER",
 					"propagator" : "HERO"
 				}
 			}	

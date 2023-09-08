@@ -1,6 +1,7 @@
 {
 	"horde" : {
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "horde/120orc", "130px" : "horde/130orc" },
 		"name" : "Horde",
 		"nativeTerrain" : "sand",
@@ -31,7 +32,7 @@
 				[ "ogre1", "ogre2", "ogre3" ],
 				[ "gronn1", "gronn2" ]
 			],
-			"moatDamage" : 100,
+			"moatAbility" : "necropolisMoat",
 			"horde" : [ 2, 3 ],
 			"mageGuild" : 5,
 			"primaryResource" : "crystal",
