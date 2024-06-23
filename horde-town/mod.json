@@ -18,6 +18,13 @@
 	{
 		"min" : "1.4.0"
 	},
+	"chinese" : {
+		"name" : "部落",
+		"description" : "新城镇部落",
+		"translations" : [
+			"translation/horde/chinese.json"
+		]
+	},
 	"factions" :
 	[
 		"config/horde/town/buildings",
